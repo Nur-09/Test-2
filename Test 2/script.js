@@ -34,11 +34,13 @@
 
 //////////////////////// 4
 
-// const btnColor = document.getElementById('btn-color')
-// btnColor.addEventListener('click', (event) => {
-//     if (event.target.textContent) {
-//         document.body.style.backgroundColor = event.target.textContent;
-//     }
+// const buttonColor = document.getElementById("btn_all");
+
+// buttonColor.addEventListener("click", (event) => {
+//   if (event.target.tagName === "BUTTON") {
+//     const color = event.target.textContent;
+//     document.body.style.backgroundColor = color;
+//   }
 // });
 
 
